@@ -6,7 +6,7 @@ public class findpermutations {
             System.out.println(ans);
             return;
         }
-        // recursion
+        // recursion - O(n*n!)
         for(int i=0; i<str.length(); i++) {
             char curr = str.charAt(i);
             // "abcde" = "ab" + "de" = "abde"
